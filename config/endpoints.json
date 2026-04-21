@@ -1,0 +1,9 @@
+{
+  "title": "Rick and Morty API",
+  "endpoints": [
+    {
+      "name": "Website",
+      "url": "https://rickandmortyapi.com/"
+    }
+  ]
+}
