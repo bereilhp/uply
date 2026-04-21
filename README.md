@@ -26,5 +26,5 @@ Edit `config/endpoints.json` before building:
 ### Run with Docker Compose
 
 ```bash
-docker compose up -d
+docker compose up --build -d
 ```

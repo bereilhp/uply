@@ -1,7 +1,9 @@
 services:
   uply:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: uply
     ports:
-      - "3000:3000"
+      - "3333:3000"
     restart: unless-stopped
